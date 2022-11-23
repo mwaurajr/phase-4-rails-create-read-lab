@@ -14,6 +14,7 @@ function PlantPage() {
       .then((plantsArray) => {
         setPlants(plantsArray);
       });
+      // console.log(plants)
   }, []);
 
   function handleAddPlant(newPlant) {
