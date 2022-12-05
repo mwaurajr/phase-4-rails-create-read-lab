@@ -21,7 +21,7 @@ end
     def create
         plants = Plant.create(plants_params)
         render json: plants, status: :created
-        byebug
+        
 
     end
 
